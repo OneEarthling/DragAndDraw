@@ -143,7 +143,6 @@ public class BoxDrawingView extends View {
                     float calculatedAngle = (float) Math.toDegrees(angle2 - angle1);
                     if (calculatedAngle < 0) calculatedAngle += 360;
                     mCurrentBox.setAngle(calculatedAngle);
-                    Log.d(TAG, "Set Box Angle " + calculatedAngle);
                 }
                     invalidate();
                 break;
